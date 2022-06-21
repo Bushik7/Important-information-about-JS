@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <h1>ToDo List</h1>
+  <div class="todo">
+    <div class="add-todo">
+      <div class="input-task">
+        <input type="text" id="task-input" placeholder="What needs to be done today?">
+      </div>
+      <div class="add-task-button">
+        <button id="add-task"><i class="fas fa-plus"></i>ADD</button>
+      </div>
+    </div>
+    </br>
+    <h2 style>Tasks for the day:</h2>
+    <div class="all-tasks"></div>
+    <div class="del-all-tasks-button">
+      <button id="delete-all-tasks">Clear All</button>
+    </div>
+  </div>
+  <script src="index.js"></script>
+  <link href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css" rel="stylesheet" />
+  <link href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css" rel="stylesheet" />
+  <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+
+</body>
+
+</html>
